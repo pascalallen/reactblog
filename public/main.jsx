@@ -24,7 +24,7 @@ class Posts extends React.Component {
 	    			</tr>
 	    		</thead>
 	    		<tbody>
-		          { this.state.posts.map(post => <tr><td>thumbnail</td><td><a href={'/posts/' + post.id}>{post.title}</a></td><td>{post.body}</td><td>{post.userId}</td></tr>)}
+		          { this.state.posts.map(post => <tr><td><img src="http://via.placeholder.com/35x35" className="img-thumbnail"/></td><td><a href={'/posts/' + post.id}>{post.title}</a></td><td>{post.body}</td><td>{post.userId}</td></tr>)}
 		          </tbody>
 	      	</table>
       	</div>
