@@ -126,9 +126,8 @@ class DeleteUser extends React.Component {
   }
 }
 
+
 // ReactDOM.render(<DeleteUser/>, document.getElementById('deleteUser'));
-
 // ReactDOM.render(<AddUser/>, document.getElementById('addUser'));
-
 ReactDOM.render(<Posts/>, document.getElementById('posts'));
 // ReactDOM.render(<Users/>, document.getElementById('users'));
