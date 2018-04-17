@@ -1,3 +1,4 @@
+import { browserHistory, Router, Route } from 'react-router';
 class Posts extends React.Component {
   state = {
     posts: []
@@ -139,5 +140,5 @@ ReactDOM.render(
 
 // ReactDOM.render(<DeleteUser/>, document.getElementById('deleteUser'));
 // ReactDOM.render(<AddUser/>, document.getElementById('addUser'));
-// ReactDOM.render(<Posts/>, document.getElementById('posts'));
+ReactDOM.render(<Posts/>, document.getElementById('posts'));
 // ReactDOM.render(<Users/>, document.getElementById('users'));

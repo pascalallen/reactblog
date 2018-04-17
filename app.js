@@ -9,5 +9,5 @@ app.listen(7777,function(){
 });
 
 app.get('*', function (request, response){
-    response.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+    response.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
